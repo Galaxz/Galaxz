@@ -102,7 +102,7 @@ body.blog-body{
     position: absolute;
     top: 80px;
     width: 100%;
-    background-image: url('./images/news/news1/bg.jpg');
+    background-image: url('http://html5resource-10019461.file.myqcloud.com/galaxz/images/news/news1/bg.jpg');
     background-repeat: no-repeat;
 }
 .news-content-title h1{
@@ -154,7 +154,7 @@ body.blog-body{
     margin-top:4rem;
     display: flex;
     align-items: center;
-    background-image: url("./images/news/news1/blank.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/news/news1/blank.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -179,7 +179,7 @@ body.blog-body{
 .about-the-game{
     width: 13.4rem;
     height: 4rem;
-    background-image: url("./images/01/ABOUT-THE-GAME.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/ABOUT-THE-GAME.png");
     background-repeat: no-repeat;
     background-size: 100%;
     margin-right: 1.5rem;
@@ -187,7 +187,7 @@ body.blog-body{
 .crowdfunding{
     width: 11.8rem;
     height: 4rem;
-    background-image: url("./images/01/CROWDFUNDING.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/CROWDFUNDING.png");
     background-repeat: no-repeat;
     background-size: 100%;
     margin-right: 2.0rem;
@@ -195,7 +195,7 @@ body.blog-body{
 .wip-gallery{
     width: 11rem;
     height: 4rem;
-    background-image: url("./images/01/WIP-GALLERY.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/WIP-GALLERY.png");
     background-repeat: no-repeat;
     background-size: 100%;
     margin-right: 1.8rem;
@@ -203,21 +203,21 @@ body.blog-body{
 .crews{
     width: 8.2rem;
     height: 4rem;
-    background-image: url("./images/01/CREWS.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/CREWS.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .news{
     width: 8.2rem;
     height: 4rem;
-    background-image: url("./images/01/BLOG.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/BLOG.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .community{
     width: 9.1rem;
     height: 4rem;
-    background-image: url("./images/01/COMMUNITY.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/COMMUNITY.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -258,7 +258,7 @@ body.blog-body{
 /*.news-detail-body-left .news-detail-f{
     width: 2.5rem;
     height: 2.5rem;
-    background-image: url('./images/news/news2/qr.png');
+    background-image: url('http://html5resource-10019461.file.myqcloud.com/galaxz/images/news/news2/qr.png');
     background-repeat: no-repeat;
     background-size: 100%;
     cursor: pointer;
@@ -267,7 +267,7 @@ body.blog-body{
     margin-top: 0.8rem;
     width: 2.5rem;
     height: 2.5rem;
-    background-image: url('./images/news/news2/s.png');
+    background-image: url('http://html5resource-10019461.file.myqcloud.com/galaxz/images/news/news2/s.png');
 }
 
 .news-detail-body-middle{
@@ -318,7 +318,7 @@ body.blog-body{
 .login-in-img{
     width: 2rem;
     height: 2rem;
-    background-image: url("./images/news/news1/login.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/news/news1/login.png");
     background-repeat: no-repeat;
     background-position: center;
     margin: auto 2px;
@@ -417,27 +417,27 @@ body.blog-body{
 }
 
 .about-the-game.active{
-    background-image: url("./images/01/ABOUT-THE-GAME_.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/ABOUT-THE-GAME_.png");
 }
 
 .crowdfunding.active{
-    background-image: url("./images/01/CROWDFUNDING_.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/CROWDFUNDING_.png");
 }
 
 .wip-gallery.active{
-    background-image: url("./images/01/WIP-GALLERY_.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/WIP-GALLERY_.png");
 }
 
 .crews.active{
-    background-image: url("./images/01/CREWS_.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/CREWS_.png");
 }
 
 .news.active{
-    background-image: url("./images/01/BLOG_.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/BLOG_.png");
 }
 
 .community.active{
-    background-image: url("./images/01/COMMUNITY_.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/COMMUNITY_.png");
 }
 .bg-img{
     position: fixed;

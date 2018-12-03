@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="zh-CN">
     <head>
-        <title>AboutTheGame - Galaxz</title>
+        <title>BLOG - GALAXZ</title>
         <link rel="bookmark" type="image/x-icon" href="images/logo1.png"/>
         <link rel="shortcut icon" href="images/logo1.png" type="image/x-icon"/>
         <link rel="icon" href="images/logo1.png" type="image/png">
@@ -9,7 +9,11 @@
         <script type="text/javascript" src="./library/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="./library/jquery.lazyload.min.js"></script>
 
+        <!--<script type="text/javascript" src="./js/main.js"></script>-->
+        <script type="text/javascript" src="./js/shop.js"></script>
+
         <link rel="stylesheet" type="text/css" href="./css/main.css" />
+        <!--<link rel="stylesheet" type="text/css" href="./css/shop.css" />-->
         <style>        
             .shop-container{
                 width: 100%;
@@ -17,67 +21,75 @@
                 top: 0;
                 overflow-x: hidden;
             }
+
             .shop-container img{
                 width: 100%;
             }
+
             .build-shop-container{
                 position: fixed;
                 top: 0;
                 bottom: 0;
                 width: 100%;
-                background-image: url('images/crowdfund/building_bg.png');
+                background-image: url('./images/crowdfund/building_bg.png');
                 background-position: center;
                 z-index: 1;
             } 
+
             .build-shop-text{
-                font-size: 2.6rem;
-                position: absolute;
-                left: 50%;
-                top: 50%;
-                transform: translate3d(-50%, -50%, 0) rotate(-24deg);
+                position: fixed;
+                top: 0;
+                bottom: 0;
                 width: 100%;
-                text-align: center;
+                background-image: url('./images/crowdfund/building.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 100%;
+                z-index: 2;
             }
             .top-news-content{
                 position: absolute;
                 top: 0;
-                height: 14%;
+                height: 20%;
                 width: 100%;
                 cursor: pointer;
             }
             .bottom-news-content{
                 position: absolute;
-                top: 14%;
+                top: 20%;
                 width: 100%;
-                height: 86%;
+                height: 80%;
+                cursor: pointer;
             }
         </style>
     </head>
     <body>
         <script>
             $(function(){
-                $(".about-game img.lazy").lazyload({
-                    placeholder : "images/crowdfund/aboutGame_begin.jpg",
+                $(".news1 img.lazy").lazyload({
+                    placeholder : "./images/crowdfund/news1.jpg",
                     effect : "fadeIn",
                     threshold : 200,
                     container : $(".shop-container"),
                 });
 
-                $(".build-shop-container").on("click", function(){
+                $(".top-news-content").on("click", function(){
                     window.location.href = "index.html";
+                })
+
+                $(".bottom-news-content").on("click", function(){
+                    window.location.href = "news2.html";
                 })
             });
         </script>
 
-        <div class="shop-container about-game">
-            <img class="lazy" data-original="images/crowdfund/aboutGame.jpg"/>
+        <div class="shop-container news1">
+            <img class="lazy"  src="./images/crowdfund/news1.jpg"/>
             <div class="top-news-content"></div>
             <div class="bottom-news-content"></div>
         </div>
-        <div class="build-shop-container" style="cursor: pointer">
-            <div class="build-shop-text">
-                PLEASE LOOK FORWARD TO THE OPENING OF ABOUT THE GAME
-            </div>
-        </div>
+        <!--<div class="build-shop-container">
+            <div class="build-shop-text"></div>
+        </div>-->
     </body>
 </html>

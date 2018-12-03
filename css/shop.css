@@ -15,7 +15,7 @@
     top: 0;
     bottom: 0;
     width: 100%;
-    background-image: url('./images/crowdfund/building_bg.png');
+    background-image: url('http://html5resource-10019461.file.myqcloud.com/galaxz/images/crowdfund/building_bg.png');
     background-position: center;
     z-index: 1;
 } 
@@ -25,7 +25,7 @@
     top: 0;
     bottom: 0;
     width: 100%;
-    background-image: url('./images/crowdfund/building.png');
+    background-image: url('http://html5resource-10019461.file.myqcloud.com/galaxz/images/crowdfund/building.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;

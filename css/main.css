@@ -24,7 +24,7 @@ ul,li{
 
 .page-container.page-bg-01
 {
-    background-image: url("./images/01/bg.jpg");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/bg.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100%;
@@ -32,7 +32,7 @@ ul,li{
 
 .page-container.page-bg-02
 {
-    background-image: url("./images/02/bg.jpg");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/02/bg.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size:  100%;
@@ -43,7 +43,7 @@ ul,li{
 
 .page-container.page-bg-03
 {
-    background-image: url("./images/03/bg.jpg");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/03/bg.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size:  100%;
@@ -54,7 +54,7 @@ ul,li{
 
 .page-container.page-bg-04
 {
-    background-image: url("./images/04/bg.jpg");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/04/bg.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size:  100%;
@@ -65,7 +65,7 @@ ul,li{
 
 .page-container.page-bg-05
 {
-    background-image: url("./images/05/bg.jpg");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/05/bg.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size:  100%;
@@ -133,68 +133,68 @@ ul,li{
 .about-the-game{
     width: 13.4rem;
     height: 4rem;
-    background-image: url("./images/01/ABOUT-THE-GAME.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/ABOUT-THE-GAME.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .crowdfunding{
     width: 11.8rem;
     height: 4rem;
-    background-image: url("./images/01/CROWDFUNDING.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/CROWDFUNDING.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .wip-gallery{
     width: 11rem;
     height: 4rem;
-    background-image: url("./images/01/WIP-GALLERY.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/WIP-GALLERY.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .crews{
     width: 8.2rem;
     height: 4rem;
-    background-image: url("./images/01/CREWS.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/CREWS.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .blog{
     width: 8.2rem;
     height: 4rem;
-    background-image: url("./images/01/BLOG.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/BLOG.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .community{
     width: 9.1rem;
     height: 4rem;
-    background-image: url("./images/01/COMMUNITY.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/COMMUNITY.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 .about-the-game.active{
-    background-image: url("./images/01/ABOUT-THE-GAME_.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/ABOUT-THE-GAME_.png");
 }
 
 .crowdfunding.active{
-    background-image: url("./images/01/CROWDFUNDING_.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/CROWDFUNDING_.png");
 }
 
 .wip-gallery.active{
-    background-image: url("./images/01/WIP-GALLERY_.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/WIP-GALLERY_.png");
 }
 
 .crews.active{
-    background-image: url("./images/01/CREWS_.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/CREWS_.png");
 }
 
 .blog.active{
-    background-image: url("./images/01/BLOG_.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/BLOG_.png");
 }
 
 .community.active{
-    background-image: url("./images/01/COMMUNITY_.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/COMMUNITY_.png");
 }
 
 .nav-container{
@@ -254,7 +254,7 @@ ul,li{
     height: 39rem;
     transform: translate(-50%, -50%);
     animation: clockwise-rotation 20s infinite linear;
-    background-image: url("./images/01/halo-01.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/halo-01.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -267,7 +267,7 @@ ul,li{
     height: 40rem;
     transform: translate(-50%, -50%);
     animation: anticlockwise-rotation 20s infinite linear;
-    background-image: url("./images/01/halo-02.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/halo-02.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -381,7 +381,7 @@ ul,li{
 }
 
 .accordion-container .border{
-    background-image: url("./images/03/border.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/03/border.png");
     padding: 4rem 0.9rem;
 }
 /*******************02************************/
@@ -438,12 +438,12 @@ ul,li{
     font-size: 0.7rem;
 }
 .ch-bright{
-    background-image: url("./images/03/btn-dark.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/03/btn-dark.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 .ch-dark{
-    background-image: url("./images/03/btn-bright.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/03/btn-bright.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -653,7 +653,7 @@ img.active-bg{
     top: -6.3%;
     left: 59.2%;
     bottom: 50%;
-    background-image: url("./images/04/Layer.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/04/Layer.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     /*z-index: 1;*/
@@ -776,7 +776,7 @@ img.active-bg{
     /*bottom: 7.4rem;*/
     height: 8.5rem;
     
-    background-image: url("./images/01/CROWDFUNDING_HOVER.png");
+    background-image: url("http://html5resource-10019461.file.myqcloud.com/galaxz/images/01/CROWDFUNDING_HOVER.png");
     background-repeat: no-repeat;
     background-size: 100%;
     color: #fff;
