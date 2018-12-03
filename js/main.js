@@ -330,7 +330,7 @@ $(document).ready(function()
                 var text = '<div class="commonConstruction">Not available at this moment</div>';
                 // $(this).removeClass("active");
                 // $(this).css("cursor", "initial");
-                // $(this).css({cursor:"url(http://html5resource-10019461.file.myqcloud.com/galaxz/images/03/ban.png), auto"});
+                // $(this).css({cursor:"url(./images/03/ban.png), auto"});
                 $(this).css({cursor:"no-drop"});
                 // $(this).css({cursor:"pointer"});
                 $(this).append(text);
@@ -489,7 +489,7 @@ var lazyLoadImage = function() {
     function lazyload(event) {
         for (var i = n; i < imgNum; i++) {
             if (img.eq(i).offset().top < parseInt($(window).height()) + parseInt($(window).scrollTop())) {
-                if (img.eq(i).attr("src") == "http://html5resource-10019461.file.myqcloud.com/galaxz/images/blank.bmp") {
+                if (img.eq(i).attr("src") == "./images/blank.bmp") {
                     var src = img.eq(i).attr("data-src");
                     img.eq(i).attr("src", src);
                     n = i + 1;
